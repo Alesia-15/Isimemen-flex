@@ -1,0 +1,12 @@
+@media screen and (min-width: 1024px) {
+  header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .programs_individuals,
+  .programs_employers,
+  .programs_leaders {
+    padding: 25px 20px;
+  }
+}

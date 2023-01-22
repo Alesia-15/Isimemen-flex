@@ -1,0 +1,264 @@
+body {
+  font-family: "Roboto";
+}
+a:link,
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  text-decoration: underline;
+}
+header {
+  margin: 15px 5%;
+}
+.menu {
+  padding: 10px 0;
+  font-size: 15px;
+}
+.menu li {
+  padding: 0 5px;
+  display: inline;
+}
+h1 {
+  margin: 0;
+  padding: 420px 5% 90px;
+  background-image: url(../images/backgroundIMAGE.png);
+  background-size: cover;
+  font-size: 126px;
+  color: #aee8fb;
+}
+.consultancy {
+  margin: 0;
+  padding: 120px 5% 45px;
+  font-size: 44px;
+  text-align: center;
+}
+.consultancy_button {
+  padding: 13px;
+  border: 1px solid;
+  border-radius: 10px;
+  background: white;
+  margin: 0 auto 120px;
+  display: block;
+  font-size: 14px;
+  letter-spacing: 1.12px;
+  text-transform: uppercase;
+}
+.provide,
+.call {
+  margin: 0;
+  padding: 60px 5%;
+  font-size: 80px;
+  background-color: #f3e9e2;
+}
+.programs {
+  margin: 120px 5%;
+}
+.programs_title {
+  margin: 0;
+  padding-bottom: 35px;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 1.28px;
+  text-transform: uppercase;
+}
+.programs_types {
+  display: flex;
+  justify-content: space-between;
+}
+.programs_individuals,
+.programs_employers,
+.programs_leaders {
+  margin: 10px 0;
+  max-width: 340px;
+  padding: 25px 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+.programs_individuals,
+.programs_leaders {
+  background-color: #aee8fb;
+}
+.programs_employers {
+  margin: 10px 10px;
+  background-color: #f3e9e2;
+}
+.programs_types img {
+  max-width: 100%;
+}
+.programs_types p {
+  line-height: 20px;
+}
+.programs_types h2,
+.programs_types button {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1.28px;
+}
+.programs_types button {
+  padding: 13px;
+  background-color: #aee8fb;
+  border: 1px solid;
+  border-radius: 10px;
+}
+.programs_individuals button,
+.programs_leaders button {
+  background-color: #aee8fb;
+}
+.programs_employers button {
+  background-color: #f3e9e2;
+}
+.no {
+  padding: 0 5%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+.no img,
+.no p {
+  max-width: 570px;
+  align-self: center;
+}
+.no img {
+  justify-self: stretch;
+}
+.no p {
+  margin: 0;
+  padding: 100px 5%;
+  justify-self: end;
+  box-sizing: border-box;
+  font-size: 44px;
+  border-radius: 20px;
+  background-color: #f3e9e2;
+}
+.numbers {
+  margin: 120px 5%;
+}
+.numbers h3 {
+  margin: 0;
+  padding-bottom: 75px;
+  font-weight: 400;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 1.28px;
+  text-transform: uppercase;
+}
+.numbers_container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  justify-content: space-around;
+  text-align: center;
+}
+.numbers_women {
+  margin: 0 10px;
+  border-left: 1px solid;
+  border-right: 1px solid;
+}
+.numbers_container h4 {
+  margin: 0;
+  font-weight: 400;
+  font-size: 61px;
+}
+.numbers_container p {
+  margin: 0;
+  padding: 38px 15px 0px 15px;
+  font-size: 15px;
+  text-align: center;
+}
+.resources {
+  margin: 120px 5%;
+}
+.resources_title {
+  margin: 0;
+  padding-bottom: 35px;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 1.28px;
+  text-transform: uppercase;
+}
+.resources_types {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.resources_quiz,
+.resources_training,
+.resources_salary {
+  margin: 10px 0;
+  max-width: 28%;
+  padding: 25px 20px;
+  border-radius: 10px;
+}
+.resources_quiz,
+.resources_quiz button {
+  background-color: #aee8fb;
+}
+.resources_training,
+.resources_training button {
+  margin: 10px 10px;
+  background-color: #f3e9e2;
+}
+.resources_salary,
+.resources_salary button {
+  background-color: #ff3b41;
+}
+.resources_types h4 {
+  margin: 0;
+  padding-bottom: 65px;
+  font-weight: 400;
+  font-size: 58px;
+}
+.resources_training,
+.resources_training button {
+  color: #ff3b41;
+}
+.resources_salary,
+.resources_salary button {
+  color: #f3e9e2;
+}
+.resources_salary h4 {
+  padding-bottom: 20px;
+}
+.resources_types p {
+  font-size: 15px;
+  line-height: 20px;
+}
+.resources_types button {
+  padding: 13px;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1.12px;
+  border: 1px solid;
+  border-radius: 10px;
+  float: right;
+}
+footer {
+  background-color: #f3e9e2;
+  padding: 60px 5% 40px;
+}
+.footer_container {
+  display: flex;
+  justify-content: space-between;
+}
+.footer_container p {
+  margin: 0;
+  padding-bottom: 50px;
+  letter-spacing: 1.25px;
+  text-transform: uppercase;
+}
+.footer_menu {
+  padding-right: 20px;
+}
+.footer_menu ul {
+  padding: 0;
+}
+.footer_menu li {
+  list-style: none;
+}
+.footer_caption {
+  margin: 0;
+  padding-top: 100px;
+  text-align: right;
+}
